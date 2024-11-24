@@ -16,7 +16,7 @@
         .header {
             background-color: #75adab;
             color: #99d4e7;
-            padding: 15px 0;
+            padding: 20px 0;
             text-align: center;
             text-size-adjust: auto;
         }
@@ -27,7 +27,7 @@
         nav ul {
             list-style-type: none;
             text-align: center;
-            padding: 5px;
+            padding: 10px;
         }
         nav ul li {
             display: inline;
@@ -36,6 +36,8 @@
         nav ul li a {
             color: white;
             text-decoration: none;
+	    margin: 30px;
+	    padding: 20px;
         }
         .container {
             max-width: 800px;
@@ -45,10 +47,20 @@
         }
         h1, h2 {
             color: #333;
+	    text-size-adjust: auto;
         }
         p {
             color: #555;
         }
+	
+	.right {
+  	display: block;
+	position: relative;
+  	margin-left: auto;
+  	margin-right: auto;
+  	width: 33%;
+	height: 33%;
+	}
     </style>
 </head>
 <body>
@@ -59,15 +71,19 @@
     
     <nav>
         <ul>
-            <li><a href="#sobre-nosotros">Sobre Nosotros</a></li>
-            <li><a href="#servicios">Servicios</a></li>
-            <li><a href="#contacto">Contáctanos</a></li>
+            <li><a href="#sobre-nosotros"><strong>Sobre Nosotros</strong></a></li>
+            <li><a href="#servicios"><strong>Servicios</strong></a></li>
+            <li><a href="#contacto"><strong>Contáctenos</strong></a></li>
         </ul>
     </nav>
 
     <div class="container">
+	
         <h2 id="sobre-nosotros">Sobre Nosotros</h2>
-        <p>En Miranet Consulting, nos especializamos en ofrecer soluciones informáticas integrales para empresas. Nuestro equipo de expertos está comprometido con brindar asesoramiento personalizado, instalación, mantenimiento y reparación de sistemas tecnológicos.</p>
+	 <div class=".right">
+	 	<img src=".pictures/Logotipo miranet mini.jpg" alt="Logo miranet mini" />
+	 </div>
+	<p>En Miranet Consulting, nos especializamos en ofrecer soluciones informáticas integrales para empresas. Nuestro equipo de expertos está comprometido con brindar asesoramiento personalizado, instalación, mantenimiento y reparación de sistemas tecnológicos.</p>
 
         <h2 id="servicios">Nuestros Servicios</h2>
         <ul>
@@ -83,10 +99,10 @@
 
         <h2 id="contacto">Contáctenos</h2>
         <p>Para más información sobre nuestros servicios, no dude en ponerse en contacto con nosotros. Estamos aquí para ayudarle a optimizar sus operaciones tecnológicas.</p>
-<br />
+	    
         <p><a href="mailto:godalo@hotmail.com"><strong style="color: blue;">Contacto Miranet</strong></a>&nbsp;
 <link><a href="https://docs.google.com/forms/d/1GTt7QoFZq74UIktfnRhe3xmEcQsy3uID_Kgz51hqO6s/prefill">Formulario de contacto</a></link></p><br />
-<a href="https://wa.me/34623946248?text=Hola Antonio. Me gustaría hacerle una consulta. Gracias! "><img border="0" alt="WhatsApp" src="/.pictures/icons8-whatsapp.svg" width="48" height="48" style="vertical-align:bottom"></a>
+<a href="https://wa.me/34623946248?text=Hola Antonio. Me gustaría hacerle una consulta. Gracias! "><img border="0" alt="WhatsApp" src="/.pictures/icons8-whatsapp.svg" width="48" height="48" style="vertical-align:left"></a>
     </div>
 </body>
 </html>
