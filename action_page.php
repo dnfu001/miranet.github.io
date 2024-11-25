@@ -80,7 +80,7 @@ function test_input($data) {
   <input type="radio" name="country" value="europa">Otros_EUROPA
   <span class="error">* <?php echo $countryErr;?></span>
   <br><br>
-  <input type="submit" name="submit" value="Enviar">  
+  <a href="mailto:godalo@hotmail.com"><input type="submit" name="submit" value="Enviar"></a>  
 </form>
 
 <?php
