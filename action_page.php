@@ -8,6 +8,8 @@
 <body>  
 
 <?php
+<a href="mailto:godalo@hotmail.com"></a>
+  
 // define variables and set to empty values
 $fnameErr = $lnameErr = $emailErr = $countryErr = "";
 $fname = $lname = $email = $country = "";
@@ -80,7 +82,7 @@ function test_input($data) {
   <input type="radio" name="country" value="europa">Otros_EUROPA
   <span class="error">* <?php echo $countryErr;?></span>
   <br><br>
-  <a href="mailto:godalo@hotmail.com"><input type="submit" name="submit" value="Enviar"></a>  
+  <input type="submit" name="submit" value="Enviar">
 </form>
 
 <?php
