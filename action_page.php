@@ -76,13 +76,16 @@ function test_input($data) {
   <br><br>
   Comment: <textarea name="comment" rows="5" cols="40"></textarea>
   <br><br>
+  Email: <input type="text" name="email">
+  <span class="error">* <?php echo $emailErr;?></span>
+  <br><br>
   Country:
   <input type="radio" name="country" value="francia">Francia
   <input type="radio" name="country" value="españa">España
   <input type="radio" name="country" value="europa">Otros_EUROPA
   <span class="error">* <?php echo $countryErr;?></span>
   <br><br>
-  <input type="submit" name="submit" value="Enviar">
+  <input type="mailto:godalo@hotmail.com" name="submit" value="Enviar">
 </form>
 
 <?php
@@ -92,6 +95,8 @@ echo "<br>";
 echo $lname;
 echo "<br>";
 echo $country;
+echo "<br>";
+echo $email;
 ?>
 
 </body>
